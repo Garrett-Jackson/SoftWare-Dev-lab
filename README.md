@@ -1,2 +1,3 @@
 # SoftWare-Dev-lab
-Lab number 3 to teach us about it
+Lab #3
+Learn about Git Desktop, Github, and adding collaborators to projects.
