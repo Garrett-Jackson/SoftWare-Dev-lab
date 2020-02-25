@@ -1,27 +1,27 @@
 #include <iostream>
-
 using namespace std;
-void sqr(int num);
-
+int power(double base, int pwr);
 
 int main()
 {
 
+  int check;
     cout<<" Git Test  "<<endl;
 
-    sqr(5,2);
+    check = power(5.0,2);
+    cout <<check <<endl;
+  	system("pause");
     return 0;
 }
 //--
 
-void sqr(int num, int pwr)
+int power(double base, int pwr)
 {
     int result= 1;
     for(int i =0; i < pwr; i++)
     {
-      result   =  num * result;
+      result   =  base * result;
     }
   
-    cout <<result <<endl;
-
+  return result;
 }
